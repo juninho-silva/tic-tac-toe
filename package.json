@@ -1,0 +1,12 @@
+{
+  "name": "tic-tac-toe",
+  "version": "1.0.0",
+  "description": "Tic tac toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["game", "html5, css3 and JavaScript", "Sample game", "Tic tac toe"],
+  "author": "",
+  "license": "ISC"
+}
