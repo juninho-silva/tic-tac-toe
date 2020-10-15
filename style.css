@@ -1,62 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chewy&family=Permanent+Marker&display=swap');
-
-body {
-    background-color: rgba(255, 253, 253, 0.959);
-    text-align: center;
-    font-family: 'Permanent Marker';
-    font-size: 1.3em;
+.playground {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 30px;
 }
 
-input {
-    background-color: white;
-    font-size: 3vw;
-    width: 6vw;
-    height:6vw;
-    margin: 0;
-    font-family: 'Permanent Marker';
-    color: white;
+h1 {
+    text-align: center;
 }
 
 .box {
-    margin-left: auto;
-    margin-right: auto;
+    border: 1px solid gray; 
+    padding: 40px;
+    font-size: 30px;
+    text-align: center;
 }
 
-.playground {
-    padding-top: 5%;
-    padding-bottom: 5%;
-    margin-left: 160px;
-    margin-right: 155px;
-    padding-top: 6px;
-    background: #1cc4b6;
-    border-radius: 45px;
+.score {
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
 }
 
-#player {
-    display: inline;
-    color: black;
-}
-
-#round {
-    color: rgb(255, 255, 255);
-}
-
-#player-x #player-o {
-    z-index: 1;
-    position: absolute;
-    border: 1px solid #ffffff;
-    margin-top: -10px;
-}
-
-#restart {
-    margin-top: 1%;
-    width: 10vw;
-    height: 6vw;
-    border-radius: 45px;
-    font-size: 1em;
-    background-color: rgb(27, 161, 223);
-    color: white;
-    border-color: rgb(78, 198, 253);
-    outline: none;
-    margin-bottom: -4px;
+.score > div {
+    text-align: center;
 }
